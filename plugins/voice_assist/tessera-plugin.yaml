@@ -4,7 +4,7 @@
 # Assistant is set up with: its own, Whisper and Piper, OpenAI, Claude. It plays a sound when it starts to listen and a
 # sound while Assist thinks (components/voice_assist/sounds). It needs a microphone, a speaker and a media player, which
 # a board brings (features/audio.yaml) or a plugin.
-id: voice_assist
+id: voice_assist_checompu
 version: 0.4.0
 api: "0.19"
 icon: robot
@@ -13,7 +13,6 @@ license: MIT
 stage: beta
 topics: [voice]
 requires:
-  esphome: 2026.9.0
   psram: true
   features: [microphone, speaker, media_player]
 boards: any
