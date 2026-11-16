@@ -10,7 +10,7 @@ micro_wake_word:
     channels: 0
   stop_after_detection: false
   models:
-    - model: https://raw.githubusercontent.com/suburban01/mis-wakewords/ea96cc62be3f70b9f5a78b2b5c047ee7174643ac/che_compu.json
+    - model: https://raw.githubusercontent.com/suburban01/mis-wakewords/ea96cc62be3f70b9f5a78b2b5c047ee7174643ac/che_compu.json?v=2
       id: va_che_compu
   vad:
   on_wake_word_detected:
