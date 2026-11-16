@@ -8,7 +8,7 @@ id: voice_assist_checompu
 version: 0.4.0
 api: "0.19"
 icon: robot
-maintainer: MaxGramser
+maintainer: Suburban02
 license: MIT
 stage: beta
 topics: [voice]
