@@ -5,7 +5,7 @@
 # sound while Assist thinks (components/voice_assist/sounds). It needs a microphone, a speaker and a media player, which
 # a board brings (features/audio.yaml) or a plugin.
 id: voice_assist_checompu
-version: 0.4.1
+version: 0.4.2
 api: "0.19"
 icon: robot
 maintainer: Suburban01
