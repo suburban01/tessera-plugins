@@ -10,10 +10,6 @@ micro_wake_word:
     channels: 0
   stop_after_detection: false
   models:
-    - model: okay_nabu
-      id: va_okay_nabu
-    - model: hey_jarvis
-      id: va_hey_jarvis
     - model: https://raw.githubusercontent.com/suburban01/mis-wakewords/ea96cc62be3f70b9f5a78b2b5c047ee7174643ac/che_compu.json
       id: va_che_compu
   vad:
@@ -115,7 +111,7 @@ select:
     icon: mdi:chat-processing
     optimistic: true
     restore_value: true
-    options: ["Okay Nabu", "Hey Jarvis", "Che Compu"]
+    options: ["Che Compu"]
     initial_option: "Che Compu"
     entity_category: config
     on_value:
@@ -127,7 +123,7 @@ voice_assist:
   wake_word: va_wake
   wake_word_on: va_wake_word
   wake_phrase: va_wake_phrase
-  phrases: [va_okay_nabu, va_hey_jarvis, va_che_compu]
+  phrases: [va_che_compu]
   speaker: ts_speaker
   media_player: ts_media_player
   wake_sound_on: va_wake_sound
