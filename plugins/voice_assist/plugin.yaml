@@ -70,9 +70,10 @@ switch:
     name: "Wake word"
     icon: mdi:account-voice
     optimistic: true
-    restore_mode: RESTORE_DEFAULT_ON
+    restore_mode: ALWAYS_ON
     entity_category: config
     on_turn_on:
+      - delay: 2s
       - if:
           condition:
             api.connected:
